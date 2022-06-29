@@ -1,2 +1,5 @@
 /node_modules
 /integrations
+
+/dist/~partytown
+/dist/main.js

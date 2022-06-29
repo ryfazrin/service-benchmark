@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vercel build --output public",
-    "partytown": "partytown copylib ~partytown"
+    "build": "npm run partytown && webpack",
+    "partytown": "partytown copylib dist/~partytown"
   },
   "author": "pazrin",
   "license": "ISC",
   "dependencies": {
     "@builder.io/partytown": "^0.6.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
