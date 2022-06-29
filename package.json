@@ -1,0 +1,16 @@
+{
+  "name": "service-benchmark",
+  "version": "1.0.0",
+  "description": "partytown service benchmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run partytown && next build",
+    "partytown": "partytown copylib public/~partytown"
+  },
+  "author": "pazrin",
+  "license": "ISC",
+  "dependencies": {
+    "@builder.io/partytown": "^0.6.2"
+  }
+}
