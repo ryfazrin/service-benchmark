@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vercel build --output public",
     "partytown": "partytown copylib ~partytown"
   },
   "author": "pazrin",
